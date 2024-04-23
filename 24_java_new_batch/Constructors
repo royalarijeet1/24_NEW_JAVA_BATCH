@@ -1,0 +1,9 @@
+Constructors :
+Functions which has the same name as of class
+Constructors doesnot have return type
+
+
+
+1> Default constructor(no parameters has been passed)
+2> Parameterised constructor(parameters has been passed)
+3> Copy constructor  ( which takes constructor object as a parameter)

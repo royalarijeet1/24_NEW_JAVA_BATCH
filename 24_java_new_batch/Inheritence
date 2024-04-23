@@ -1,0 +1,78 @@
+Parent class   -A,B
+child class    - C,D,A,B
+
+Terms  :
+
+Parent class/Super Class 
+
+CHILD CLASS / SUB CLASS
+
+Advantage :   Code Reusability
+
+class A   (Parent/super class)
+{
+   .....
+}
+
+
+class B   (Childclass/SubClass)     extends  A
+{
+		class B properties+class A properties
+}
+
+
+1> IS-A relation (Inheritence)   :  B is a type of A
+2> Has A relation (Agrregation)
+
+
+Types of inheritence
+
+1>  Single Inheritence
+
+       Class A   - a,b
+          |
+       Class B   -c,d,a,b
+       
+2>  Multilevel Inheritence
+
+		Class A   - a,b
+          |
+     	Class B   -c,d,a,b
+     	  |
+     	Class C    -e,f,c,d,a,b
+     	  |
+     	Class D     -g,h,e,f,c,d,a,b
+     	
+3>  Hierachichal
+
+         	A- a,b
+            |
+    ---------------------------------------
+    |                 |                   |
+    B -c,d,a,b		  C -e,f,a,b		  E	- g,h,a,b
+    
+    
+4>   MULTIPLE 
+			
+			A -a,b                    B  -c,d
+            |                         |  
+             --------------------------
+                         |
+                         C -e,f,a,b,c,d
+                         
+5>    Hybrid 
+
+                        A(a,b)
+                        |
+           ------------------------------- 
+		   B(c,d,a,b)					  C(e,f,a,b)
+            |						      |		
+			-------------------------------
+						|
+						D(g,h,c,d,e,f,a,b)
+
+
+
+Employee   :    id,name, salary
+TechEmployee IS A EMPLOYEE :  bonus,id,name, salary
+AdminEmployee IS A EMPLOYEE:  dsgn,id,name, salary

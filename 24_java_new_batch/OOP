@@ -1,0 +1,35 @@
+OOP : Object Oriented Programming
+
+
+1> Objects
+2> Classes
+3> Inheritence
+4> Polymorphism
+5> Abstraction
+6> Encapsulation
+
+
+
+
+Objects : Which exist physically and has state and behaviour  . Eg. Chair, pen , paper
+
+Dog is an object because it has states like colour, name, breed and behaviours like tail, barking,
+eating
+
+Object is an instance of class. which contains address and takes up some memory
+
+
+
+Class : Collection of objects , which doesnot exist physically , but a logical entity
+
+Dog is an object whereas animal is a class
+Model name is an object and car is a class
+
+
+Class contains :
+
+1> Method / function
+2> Variables  : local/global
+3> Constructors
+4> Block : static and instance
+5> Nested class and interface
