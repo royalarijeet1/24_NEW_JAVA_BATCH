@@ -1,0 +1,15 @@
+Inheritence : extends   :  IS A relation
+
+Student(child class)  IS A  Person (Parent class)
+
+AdminEmployee(child class), Tech Employee(Child class)  IS A EMPLOYEE(PARENT)
+
+
+
+
+
+Aggregation : HAS A relationship 
+
+Employee HAS AN ADDRESS
+Employee : id, name, emailid
+           Address : city, state,country, zipcode : Class , Employee Object
