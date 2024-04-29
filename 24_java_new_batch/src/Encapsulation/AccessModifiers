@@ -1,0 +1,8 @@
+Access Modifiers: Scope
+
+
+
+1> Private : Within the class
+2> Default  :  within the class,Within the package(folder)
+3> Protected : within the class, within the package, outside the package (inheritence)
+4> Public  : outside the class, outside the package
