@@ -1,0 +1,15 @@
+Polymorphism :  
+we perform same actions , but this action are performed differently
+
+Poly means many , morphs means forms
+
+
+
+Types of Polymorphism :
+
+1> Compile time  : Operator Overloading / Method Overloading 
+2> Run Time
+
+
+Method Overloading  :  Class which have multiple methods having same name but different in 
+						parameters or different in return type 
