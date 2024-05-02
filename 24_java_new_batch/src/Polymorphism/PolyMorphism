@@ -13,3 +13,28 @@ Types of Polymorphism :
 
 Method Overloading  :  Class which have multiple methods having same name but different in 
 						parameters or different in return type 
+						
+						
+Method Overriding : inheritence  
+					subclass  has same method as in parent class, known as method overriding
+					
+					
+					    RBI Bank
+					    
+					    rateOfInterest()
+					          |
+					          |
+					          |
+	   ____________________________________________________
+	   |                       |                           |
+	   |                       |                           |
+	   |                       |                           |
+	   SBI                    ICIC                        AXIS
+	   
+	   rateOfInterest()		  rateOfInterest()		       rateOfInterest()   
+					          
+					          
+					          
+					          
+					
+					
