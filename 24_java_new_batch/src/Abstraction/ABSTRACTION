@@ -1,0 +1,35 @@
+   Abstraction : hiding implementation details and showing any functionalty to user
+   
+   
+   Two types of Abstraction :
+   
+   1> Abstract class (0 to 100 %)
+   2> Interface (100%)
+   
+   
+   
+   1> Abstract class
+   -> will use abstract keyword
+   -> abstract as well as non abstract methods
+   -> final methods
+   -> constructors and static methods also
+   -> cannot be instantiated
+   
+   
+   abstract A
+   {
+   }
+   
+   
+   class B extends A
+   {
+   		abstract method a()
+   }
+   
+   class C  EXTENDS B
+   {
+   		void a()
+   		{};
+   		
+   }
+   
