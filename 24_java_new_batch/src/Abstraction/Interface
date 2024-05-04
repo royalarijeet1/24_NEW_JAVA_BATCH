@@ -1,0 +1,27 @@
+Interface :
+
+IS-A relation inheritence
+
+
+interface  interface_name
+{
+	abstract method()
+	variables  -> static final 
+}
+
+
+class   extends class
+class   implements interface
+interface extends interface
+          
+          
+Multiple Inheritence:
+
+
+
+
+class(child)    implements   interface1,interface2
+
+interface extends interface1,interface2
+
+  
