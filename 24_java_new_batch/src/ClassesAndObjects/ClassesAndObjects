@@ -1,0 +1,65 @@
+OOPS :
+
+
+1> Classes
+2> objects
+3> Inheritence
+4> Encapsulation
+5> Polymorphism
+6> anstraction
+
+
+Objects : A pen is an object
+Dog is an object 
+
+Object is an instance of class . Comes with address and takes up some memory. 
+which has states as well as behaviour. It exist physically
+
+Classes : collection of objects . It is logical entity
+Animal is a class, Dog,Cat  is an object
+Car is a class, maruti800, swift are objects 
+
+
+Classes :
+
+Methods(also known as functions)
+Data Members (Variables) 
+Constructors
+Static Blocks, Instance block
+Nested Classes and Interface
+
+
+class A
+{
+	
+	int a, b,c;  instance variables
+	
+	void f()    
+	{
+		int d,e;   local variables
+	}
+}
+
+
+Array : 
+1> Collection of elements with same data type
+2> No of elements in array is fixed
+
+0 to n-1
+
+0,1,2,3,4
+
+n=5
+
+Ordering : 0 to n-1
+
+
+Static KeyWord: common for every objects
+Memory Management
+1> Variables
+2> Method
+3> Block
+4>Nested Class
+
+Employee Class :
+Organisation Same 
