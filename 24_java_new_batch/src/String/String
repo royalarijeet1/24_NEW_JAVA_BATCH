@@ -1,0 +1,51 @@
+String is an object whcih represents sequence of char values
+
+char[] ch={'S','t','r','i','n','g'};
+
+
+same as
+
+String s="javatpoint";
+
+
+
+1> By String literal
+2> New Keyword
+
+String s1="Welcome";
+String s2="Welcome";
+String s3="Hi";
+
+
+
+
+String s4= new String("example")
+String s5=new String("example")
+
+String is immutable as it returns the 
+original string and doesnot change despite
+of using several function
+
+Mutable is something which doesnt returns
+the original String
+StringBuffer/StringBuilder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

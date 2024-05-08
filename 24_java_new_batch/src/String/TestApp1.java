@@ -7,6 +7,16 @@ public class TestApp1 {
 //		StringFunctions.formatFunction();
 //		StringFunctions.substrFunction();
 //		StringFunctions.containsFunction();
-		StringFunctions.joinFunction();
+//		StringFunctions.joinFunction();
+//		StringFunctions.equalsFunction();
+//		StringFunctions.equalsIgnoreCaseFunction();
+//		StringFunctions.isEmptyFunction();
+		StringFunctions.concatFunction();
 	}
 }
+
+
+
+//int Integer
+//Character char
+

@@ -1,6 +1,73 @@
 package String;
 
 public class StringFunctions {
+	static void concatFunction()
+	{
+		String a="Java";  
+		String b="is a";
+		String c="STRING";
+		
+		String d=a.concat(c);
+		System.out.println(d);
+		String e=a.concat(b).concat(c);
+		String f=a+" "+b+" "+c;
+		System.out.println(e);
+		System.out.println(f);
+		
+		System.out.println(1+"a");
+		System.out.println(1+(2+"a"));
+		System.out.println("a"+1+2);
+		System.out.println("a"+(1+2));
+
+	}
+	static void isEmptyFunction()
+	{
+		String a=" ";  
+		String b="";
+		String c="STRING";
+		
+		System.out.println(a.isEmpty());  //space is a character
+		System.out.println(b.isEmpty());
+		System.out.println(c.isEmpty());
+	}
+	static void equalsIgnoreCaseFunction()
+	{
+		String a="string";
+		
+		String c="STRING";
+		
+	
+		System.out.println("a.equals(c)"+" "+a.equalsIgnoreCase(c));
+		System.out.println("(a==c)"+"" +(a==c));		
+	}
+	
+	static void equalsFunction()
+	{
+		String a="string";
+		String b="string";
+		String c="STRING";
+		String d="equals";
+		String e=new String("a");
+		String f="a";
+		Character g=new Character('a');  //char  //
+		String h="false";
+		Boolean i=false;
+
+		
+		System.out.println("a.equals(b)"+" "+a.equals(b));
+		System.out.println("(a==b)"+"" +(a==b));
+		System.out.println("a.equals(c)"+" "+a.equals(c));
+		System.out.println("(a==c)"+"" +(a==c));
+		System.out.println("a.equals(d)"+" "+a.equals(d));
+		System.out.println("(a==d)"+"" +(a==d));
+		System.out.println("a.equals(e)"+" : "+a.equals(e));
+		System.out.println("(a==e)"+" : " +(a==e));
+		System.out.println("f.equals(g)"+" : "+f.equals(g));
+		System.out.println("e.equals(g)"+" : "+e.equals(g));
+		System.out.println("e.equals(g.toString)"+" : "+e.equals(g.toString()));
+		System.out.println("h.equals(i)"+" : "+h.equals(i));	
+		System.out.println("h.equals(i.toString)"+" : "+h.equals(i.toString()));	
+	}
 	
 	static void joinFunction()
 	{
@@ -59,10 +126,12 @@ public class StringFunctions {
 		System.out.println(sf2);
 		String sf3=String.format("value is %d", 32);
 		System.out.println(sf3);
-		String sf4=String.format("value is %f", 32f);
+		String sf4=String.format("value is %f", 22f);
 		System.out.println(sf4);
-		String sf5=String.format("value is %32.1f", 32.33333);
+		String sf5=String.format("value is %22.1f", 22.33333);
 		System.out.println(sf5);
+		String sf6=String.format("value is %22.0f", 22.33333);
+		System.out.println(sf6);
 	}
 	static void substrFunction()
 	{
