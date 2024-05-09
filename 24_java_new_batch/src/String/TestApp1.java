@@ -11,12 +11,16 @@ public class TestApp1 {
 //		StringFunctions.equalsFunction();
 //		StringFunctions.equalsIgnoreCaseFunction();
 //		StringFunctions.isEmptyFunction();
-		StringFunctions.concatFunction();
+//		StringFunctions.concatFunction();
+//		StringFunctions.replaceFunction();
+//		StringFunctions.splitFunction();
+		StringFunctions.indexOfFunction();
 	}
 }
 
 
 
-//int Integer
-//Character char
+
+
+
 

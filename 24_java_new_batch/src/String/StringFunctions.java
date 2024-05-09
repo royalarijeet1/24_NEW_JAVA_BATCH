@@ -1,6 +1,83 @@
 package String;
 
 public class StringFunctions {
+	static void indexOfFunction()
+	{
+		String a="this is index of function";
+		int index1=a.indexOf("is");
+		System.out.println("index1: "+index1);
+		int index2=a.indexOf("index");
+		System.out.println("index2: "+index2);
+		
+		int index3=a.indexOf("is",3);
+		System.out.println("index3: "+index3);
+		
+		String b="Index is a function of String";
+		int index4=b.indexOf("i");
+		int index5=b.indexOf("i",index4+1);
+		int index6=b.indexOf("y");
+		System.out.println("index4: "+index4);
+		System.out.println("index5: "+index5);
+		System.out.println("index6: "+index6);
+		
+	}
+	
+	
+	static void splitFunction()
+	{
+		String a="Java is a programming language";
+		String[] words=a.split(" ");
+		System.out.println(words);
+		
+		System.out.println("returning words:");
+		for(String w:words)
+		{
+			System.out.println(w);
+		}
+		
+		System.out.println("returning words:");
+		String[] words1=a.split(" ",0);
+		for(String w:words1)
+		{
+			System.out.println(w);
+		}
+		
+		System.out.println("returning words:");
+		String[] words2=a.split(" ",1);
+		for(String w:words2)
+		{
+			System.out.println(w);
+		}
+		System.out.println("returning words:");
+		String[] words3=a.split(" ",2);
+		for(String w:words3)
+		{
+			System.out.println(w);
+		}
+		System.out.println("returning words:");
+		String[] words4=a.split(" ",3);
+		for(String w:words4)
+		{
+			System.out.println(w);
+		}
+	}
+	
+	static void replaceFunction()
+	{
+		String a="Java is a programming language";
+		System.out.println("Original String: "+a);
+		String rs=a.replace('o', 'e');
+		System.out.println(rs);
+		
+		String rs1=a.replace("a", "an");
+		System.out.println(rs1);
+		
+		String rs2=a.replace("is a", "was an");
+		System.out.println(rs2);
+		
+		String rs3=a.replace("z", "y");
+		System.out.println(rs3);
+	}
 	static void concatFunction()
 	{
 		String a="Java";  
