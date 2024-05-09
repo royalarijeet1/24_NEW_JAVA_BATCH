@@ -1,8 +1,19 @@
 package Encapsulation.A;
 
-public class D {
-	void msg()   //DEFAULT
+class _Protected
+{
+	protected void msg()
 	{
-		System.out.println("this is class D");
+		System.out.println("this is _Protected class");
+	}
+}
+public class D {
+	protected void msg()
+	{
+		System.out.println("this is D class");
+	}
+	public static void main(String[] args) {
+		_Protected p=new _Protected();
+		p.msg();
 	}
 }
