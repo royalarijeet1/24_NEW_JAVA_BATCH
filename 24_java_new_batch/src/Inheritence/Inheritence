@@ -1,0 +1,106 @@
+Parent class
+child class
+
+
+a mechanism which one class(child class) acquires the properties of other class(parent class)
+
+
+Inheritence
+Aggregation
+
+
+Inheritence  : IS- A relationship
+
+Dog(chlid class)
+Animal(parent class)
+
+
+Dog IS-A animal
+
+
+Code reusabilty
+Method overriding(polymorphism)
+
+
+
+
+Types Of Inheritence
+
+1> Single Inheritence
+
+    class A (Parent class)  -a
+       |
+    class B (child class)  -b,a
+    
+2> Multilevel Inheritence
+    
+     class A    -a
+       | 
+     class B    -b,a
+       |
+     class C    -c,b,a
+        |
+     class D    -d,c,b,a
+   
+3> Hierarchichal
+
+
+          		  A  -a 
+          		  |
+   --------------------------------
+   |               |               |
+   B-b,a           C-c,a           D-d,a 
+   
+
+4> Multiple
+
+
+             A-a,d                B-b,d
+              |                   |
+              ---------------------
+                        |
+                        C-c,a,b
+        
+        
+     -Interface
+     
+ 5> Hybrid 
+ 
+ 			A -a 
+          	|
+   -----------------
+   |               |               
+   B-b,a           C-c,a           
+   |                |
+   ------------------
+            |
+            D-b,c,a                     
+            
+            
+            
+ Person(parent) -name
+ Employee(child) - id,salary, dsgn, org
+ 
+ Employee IS A person
+ 
+ 
+ Animal<- Dog  <- BabyDog
+ 
+ Animal
+ |-Dog
+ |-Cat
+ 
+ 
+Hierachical Inheritence
+
+Employee -id, salary, name
+AdminEmployee extend employee-  dsgn   ;  insert(),display()
+TechEmployee extend employee-bonus     ;  insert(),display()
+
+main class
+Switch cases
+1> AdminEmployee  
+2>	TechEmployee  
+
+
+ 
