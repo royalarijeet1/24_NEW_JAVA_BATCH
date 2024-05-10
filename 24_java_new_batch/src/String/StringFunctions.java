@@ -1,6 +1,53 @@
 package String;
 
 public class StringFunctions {
+	static void valueOfFunction()
+	{
+		long b=10l;
+		String a= String.valueOf(b);
+		System.out.println("type of a after using value of: "+ ((Object) a).getClass().getSimpleName());
+		System.out.println(a+20);
+		char c='c';
+		System.out.println(c+b);
+	}
+	static void trimFunction()
+	{
+		String a="    jaVa is a pROGramminG LANGuagE     ";
+		System.out.println(a.length());
+		System.out.println(a.trim().length());
+	}
+	
+	static void toUpperCaseFunction()
+	{
+		String a="jaVa is a pROGramminG LANGuagE";
+		System.out.println(a.toUpperCase());
+	}
+	static void toLowerCaseFunction()
+	{
+		String a="jaVa is a pROGramminG LANGuagE";
+		System.out.println(a.toLowerCase());
+	}
+	
+	static void internFunction()
+	{
+		String a=new String("This is Java Programming");
+		String b=new String("This is Java Programming");
+		String c="This is Java Programming";
+		String d=a.intern();
+		String e=c.intern();
+		System.out.println(a==b);
+		System.out.println(c==d);
+		System.out.println(c==e);
+		System.out.println(d==a.intern());  //false
+		
+	}
+	
+
+	
+	
+	
+	
+	
 	static void indexOfFunction()
 	{
 		String a="this is index of function";

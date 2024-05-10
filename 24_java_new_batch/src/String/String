@@ -28,8 +28,25 @@ of using several function
 
 Mutable is something which doesnt returns
 the original String
-StringBuffer/StringBuilder
+StringBuffer(Synchronised)/StringBuilder(Non Synchronised)
 
+
+
+
+
+Synchronised
+
+1  request - 1 thread
+2nd request - 2nd thread
+
+1 responce : 
+the client will accept the 2nd thread , if the process of 1st thread has been completed
+
+
+Non Synchronised
+100 request - 100 threads 
+
+client will simultaneously accept multiple threads
 
 
 

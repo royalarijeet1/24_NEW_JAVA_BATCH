@@ -14,13 +14,22 @@ public class TestApp1 {
 //		StringFunctions.concatFunction();
 //		StringFunctions.replaceFunction();
 //		StringFunctions.splitFunction();
-		StringFunctions.indexOfFunction();
+//		StringFunctions.indexOfFunction();
+//		StringFunctions.internFunction();
+//		StringFunctions.toLowerCaseFunction();
+//		StringFunctions.toUpperCaseFunction();
+//		StringFunctions.trimFunction();
+		StringFunctions.valueOfFunction();
 	}
 }
 
 
 
+//string
 
+//ringst
+
+//ringst
 
 
 
