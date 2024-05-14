@@ -1,0 +1,45 @@
+Exceptional Handling : 
+
+to handle runtime errors so that normal flow of application can be maintained 
+
+
+
+
+
+statement1;
+statement2;
+statement3;
+statement4;
+statement5;   //exception occurs
+statement6;
+statement7;
+statement8;
+statement9;
+statement10;
+
+
+
+Two Types Of Exception :
+
+1> Checked Exception
+2> Unchecked Exception
+
+
+
+								Throwable
+									|
+			---------------------------------------------------------
+			|														|
+		CheckedException                                        Exception
+		|                                                           |
+		|-IOException                                           RuntimeTime(Unchecked Exception)
+		|-SQL													|
+		|-ClassNotFound											|-Arithmetic
+																|-NullPointer
+																|-NumberFormat
+																|-ArrayIndexOutOfBound
+			                                                         
+		try {
+				//if exception occurs, then it will go to catch block
+		}
+		catch						   
