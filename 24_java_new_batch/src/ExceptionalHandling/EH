@@ -30,9 +30,10 @@ Two Types Of Exception :
 									|
 			---------------------------------------------------------
 			|														|
-		CheckedException                                        Exception
-		|                                                           |
-		|-IOException                                           RuntimeTime(Unchecked Exception)
+	    -------------------------------------------------------------
+	    |															|
+	    |														Exception                                                     
+		|-IOException                                         	|
 		|-SQL													|
 		|-ClassNotFound											|-Arithmetic
 																|-NullPointer
@@ -43,3 +44,39 @@ Two Types Of Exception :
 				//if exception occurs, then it will go to catch block
 		}
 		catch						   
+		{
+		}
+		
+EXCEPTIONAL OVERRIDING:
+
+1>  superclass method doesnot throw exception
+     subclass overriden method cannot declare checked exception but it can declare 
+     unchecked exception
+     
+2>  superclass method  throw exception
+ 	subclass overriden method can declare same exception,
+ 	can declare child exception, but not the parent exception of superclass
+ 	
+
+     Parent -> Exception  , Child ->  Exception class/all unchecked exception/all Checked Excpetions
+     Parent  -> an unchecked Exception , child -> all unchecked excpetions
+     Parent ->  Checked Exception , child -> All checked Exceptions/Exception/ all Unchecked Exceptions
+     Parent -> Throwable, child -> all type of Exceptions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
