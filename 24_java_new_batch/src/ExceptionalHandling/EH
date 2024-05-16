@@ -61,7 +61,7 @@ EXCEPTIONAL OVERRIDING:
      Parent -> Exception  , Child ->  Exception class/all unchecked exception/all Checked Excpetions
      Parent  -> an unchecked Exception , child -> all unchecked excpetions
      Parent ->  Checked Exception , child -> All checked Exceptions/Exception/ all Unchecked Exceptions
-     Parent -> Throwable, child -> all type of Exceptions
+     Parent -> Throwable, child -> unchecked excpetions
 
 
 
