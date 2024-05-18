@@ -64,14 +64,51 @@ EXCEPTIONAL OVERRIDING:
      Parent -> Throwable, child -> unchecked excpetions
 
 
-
-
-
-
-
-
-
-
+   Login PAGE
+   
+   1> Email   : invalid email exception 
+       
+   2> Password  : PasswordStrength Exception
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
 
 
