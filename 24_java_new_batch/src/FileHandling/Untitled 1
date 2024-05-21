@@ -5,3 +5,9 @@ File Handling :  it is something in which we use to read or write file using :
 					
 1> WRITE TEXT IN TEXT FILE USING OUTPUT STREAM
 2> READ TEXT IN FILE USING INPUT STREAM
+
+
+1> FileInputStream
+2> FileOutputStream
+3> FileReader
+4> FileWriter
