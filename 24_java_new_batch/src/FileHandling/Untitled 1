@@ -11,3 +11,19 @@ File Handling :  it is something in which we use to read or write file using :
 2> FileOutputStream
 3> FileReader
 4> FileWriter
+
+
+
+read on object , 
+
+Student class object 
+
+object is converted to stream
+
+
+stream is an object , which is in the form of binary
+
+
+Serialisation : is a process of converting object into stream
+
+Deserialisation : is a process of converting stream into object
