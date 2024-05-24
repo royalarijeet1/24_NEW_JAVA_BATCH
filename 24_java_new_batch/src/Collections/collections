@@ -1,0 +1,25 @@
+Array Limitations : 
+        int a[]= new int[5]
+        
+ 1> Size Fix
+ 2> Typesafe 
+ 
+ 
+ 
+ Collection framework:-  " java.util.* "
+ 
+                          
+                          Iterable(I)---------------------------------------------------------------
+                             |                                                                      |                                            
+                          Collections(I)                                                            |
+                             |                                                                      |  
+                             |Data value                                                            |
+                             |                                                                      |
+      -------------------------------------------------------------                                Map (Key,Value)
+      |                             |                             |                                 |
+     List(I)                     Set(I)                       Queue(I)                              | HashMap(C)
+      |                             |                             |									| LinkedHashMap(C)
+      |	ArrayList(C)                | HashSet(C)                  |-PriorityQueue(C)				| TreeMap (C)
+      | Vector(C)                   | LinkedHashSet(C)
+      | LinkedList(C)               | TreeSet(C)
+    
