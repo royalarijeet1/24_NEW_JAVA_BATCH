@@ -23,3 +23,46 @@ Array Limitations :
       | Vector(C)                   | LinkedHashSet(C)
       | LinkedList(C)               | TreeSet(C)
     
+    C- Classes
+    I -Interfaces
+    
+    1> Difference between List vs Map or Set vs Map or queue vs Map
+      
+       List/set/queue inherit collection interface , whereas Map inherit iterable interface
+       List/set/queue can accept data values, whereas Map accpets (key,value) pair
+       
+       
+       
+ primitive data types <=======>     wrapper classes
+ 1> byte                             Byte
+ 2> char                             Character
+ 3> int                              Integer
+ 4> long                             Long
+ 5> float                            Float
+ 6> double                           Double
+ 7> booleam                          Boolean
+ 8> short                            Short
+ 
+ 1 lakh record, arraylist will become slow 
+ 
+ want to insert a record at 50,000 th position, nodes from 50,000 to 1,00,000 will shift 
+ 
+ 
+ LinkedList : Double LinkedList  
+ 
+ Single node : 1> will store the address of previous node, 2> will store the address of its own
+ no shifting required for inserting or deleting a node
+ 
+ Vector List :  methods synchronised
+ ArrayList : unsynchronised
+ 
+ 
+ Banking application : Synchronised
+ 
+ 100 request : 100 threads 
+ for accepting the 2nd request, user has to finish the process for the 1st request
+ 
+ Unsynchronised
+ 
+ 100 request  : 100 threads
+ user can complete and accept simultaneous request
