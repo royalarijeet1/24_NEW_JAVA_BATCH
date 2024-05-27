@@ -33,9 +33,9 @@ public class StudentArrayList {
 						System.out.println("student record inserted");
 						break;
 				case 2: System.out.println("enter rollno which you want to update student record:");
-				        searchRno=sc.nextInt();
+				        searchRno=sc.nextInt();  //2
 				        flag=false;
-						for(;i<list.size();i++)
+						for(;i<list.size();i++)   //
 				        {
 				        	s=list.get(i);
 				        	

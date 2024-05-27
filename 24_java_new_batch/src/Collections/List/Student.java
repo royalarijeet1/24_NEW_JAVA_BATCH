@@ -6,13 +6,15 @@ public class Student {
 	String name;
 	int std,rno;
 	Scanner sc=new Scanner(System.in);
-//	public Student(String name, int std, int rno) {
-//		super();
-//		this.name = name;
-//		this.std = std;
-//		this.rno = rno;
-//	}
-	
+	public Student(String name, int std, int rno) {
+		super();
+		this.name = name;
+		this.std = std;
+		this.rno = rno;
+	}
+	public Student() {
+		
+	}
 	void scan()
 	{
 		
