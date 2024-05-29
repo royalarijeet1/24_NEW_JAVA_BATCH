@@ -1,0 +1,19 @@
+Java inner classes is a class that is declared inside any class or interface
+
+
+
+1> Code Optimisation
+2> to develop more readable code 
+3> to access private members also
+
+
+Non static 
+1> Member inner class
+2> Anonymous inner class
+3> Local Inner class
+
+
+
+Static nested class
+
+Nested Interface
