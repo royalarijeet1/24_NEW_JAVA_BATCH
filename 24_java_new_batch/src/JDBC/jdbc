@@ -1,0 +1,68 @@
+JDBC - Java to Database Connectivity
+
+
+
+Data--records---store---->Database
+
+
+
+1> Database Connection:-   
+
+
+							JDBC API
+							   |
+			----------------------------------------------------------------------------
+			               connection
+			---------------------------------------------------------------------------
+			   |                                |								|
+			 Driver.class                     Driver.class                   Driver.class
+			   |								|								|
+			 mysql-connector.jar               odbc.jar							*.jar
+			   |                                 |								|
+			 MySQL						        Oracle						Postgres
+			 
+			 
+			 
+		1> Make Credentials
+		   
+		   URLNAME="jdbc:mysql://localhost:3306/24_new_java_batch";	
+		   DRIVERCLASS="com.mysql.cj.jdbc.Driver";
+		   USERNAME="root";
+		   PASSWORD="root;
+		   
+		   
+		   
+		   
+		2> SQL Queries----->Database 	
+		
+		
+		
+		Student : rno, name, std
+		
+		1> insert
+		2> display
+		3> delete by rno/name/std
+		4> update by rno/name/std
+		
+		
+		INSERT  -1 
+		INSERT  - 1
+		INSERT -1
+		
+		
+		UPDATE STUDENT SET NAME=""   WHERE RNO=3;
+		ROWSAFFECTED=2
+		
+		DELETE FROM STUDENT WHERE RNO=2;
+		ROWAFFECTED=2
+		
+		
+		
+		switch()
+		1> insert
+		2> delete
+		3> display
+		4> update
+		
+		
+		Employee : id, name, designation, organisation, salary
