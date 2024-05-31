@@ -32,3 +32,21 @@ Royal :-
  2> In a single class , we are executing multiple threats
  
  3> Three classes , which are extending thread class are accessing the table class simultaneously
+ 
+ 
+ 
+ 
+ 
+ Thread Life-cycle:-
+ 
+ 1> start
+      |
+      |
+ 2> Runnable(QUEUE)   <-------------------------------  4> NonRunnable State(SleepMode)                               
+      |                                                        |
+      |(pick)--operating system schedule                       |
+      |														   |
+ 3>  Running(OS)--------------sleep(),wait()-------------------|
+       |
+       |
+ 5>	 Terminate
